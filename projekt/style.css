@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:teal;
+    background-attachment: scroll;
+}
+body{
+    height: 200vh;
+}
+.head {
+    text-align: left;
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 280px;
+    background-color: teal;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    font-size-adjust: none;
+    font-kerning: auto;
+    color: tan;
+    position: relative;
+    
+}
+img {
+    
+    width: 450px;
+    height: 450px;
+    border-radius: 500px;
+    margin-right: 100px;
+    margin-top: -200px;
+    margin-left: 200px;
+    z-index: 999;
+    position: relative;
+}
+ul {
+    float: right;
+    padding-right: 390px;
+    margin-top: -20px;
+}
+li {
+    display: inline-block;
+    padding-right: 35px;
+}
+.Hallo {
+    font-family: fantasy monospace;
+    text-align: center;
+    font-size: 100px;
+    padding-left: 40px;
+    color: white;
+    margin-top: 100px;
+}
+.about{
+    font-family: fantasy monospace;
+    text-align: center;
+    font-size: 60px;
+    padding-left: 90px;
+    color: white;
+}
+
+.button {
+    margin-top: -225px;
+    margin-right: 0 auto;
+    margin-left: -27px;
+}
+
+
+
+.button1{
+    background-color:rgb(209, 47, 101);
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 700px;
+    margin-top: -100px;
+}
+.button2 {
+
+    background-color:rgb(59, 59, 163);
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+    
+}
+.button3 {
+    background-color: yellowgreen;
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragraph {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'open sans, Times New Roman', Times, serif;
+    color:rgb(66, 48, 48);
+    position: relative;
+    text-align:  left;
+    text-align: justify;
+    float: right;
+    padding: 20px 100px 0 680px;
+    margin: 0px 400px 0px 0px;
+
+}
+.bildung {
+    height: 700px;
+    width: 900px;
+    float: left;
+    
+}
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 250px;
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(222, 224, 235);
+    
+}
+#learned {
+    margin: 20px 0 0 200px;
+    text-align: left;
+}
+#p2005 {
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 17px;
+    text-decoration: underline;
+    text-align: left;
+}
+
+#schul2005{
+    padding: 10px 0 0 200px;
+}
+#p2010 {
+    padding: 35px 0 0 200px;
+    text-align: left; 
+    font-size: 17px;
+    text-decoration: underline;
+}
+#uni2010  {
+    padding: 10px 0 0 200px;
+}
+#p2013 {
+    padding: 35px 0 0 200px;
+    text-align: left; 
+    font-size: 17px;
+    text-decoration: underline;
+}
+#uni2013 {
+    padding: 10px 0 0 200px;
+}
+#p2017 {
+    padding: 35px 0 0 200px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+#teilnahme2017 {
+    padding: 10px 0 0 200px;
+}
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:  250px 0 0 px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(222, 224, 235);
+}
+.tätig {
+    height: 700px;
+  /*  width: 700px;*/
+    float: right;
+    
+
+}   
+ h6 {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+#jahr2009 {
+    padding: 50px 0 0 100px;
+    font-size: 17px;
+    text-decoration: underline;
+
+}
+#tätig2009 {
+    padding: 10px 0 0 100px;
+    text-align: left; 
+    font-size: 17px;
+  
+
+}
+#jahr2013 {
+    padding: 35px 0 0 100px;
+    text-decoration: underline;    
+}
+#tätig2013{
+    padding: 10px 0 0 100px; 
+}
+
+#kenntnisse {
+    margin-left: 200px;
+  /*  margin-top: 50px;*/
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(222, 224, 235);
+}
+
+#sprachen {
+    margin: 50px 0 0 200px;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.besondere {
+    margin: auto;
+    padding: 20px 0  0 200px;
+    font-size: 20px;
+
+}
+#ms-office {
+    margin: 50px 0 0 200px;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+.ms-off {
+    margin: auto;
+    padding: 20px 0  0 200px;
+    font-size: 20px;
+}
+footer {
+    height: 150px;
+    background-color: tan;
+}
+
+     
+}
